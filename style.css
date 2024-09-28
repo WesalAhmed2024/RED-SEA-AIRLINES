@@ -1,0 +1,48 @@
+table {
+    text-align: center;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td, th {
+    border: 1px solid gray;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.sector, .darkgray {
+    background-color: #acafb3;
+}
+
+.empty {
+    background-color: #ccc;
+}
+
+label {
+    display: inline-block;
+}
+
+label span {
+    padding-right: 10px;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    margin-left: 150px;
+    transform: scale(1.5);
+}
+
+pre {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+.detail {
+    text-align: left;
+}
+
